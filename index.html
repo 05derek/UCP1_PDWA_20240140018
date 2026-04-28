@@ -8,6 +8,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Tech Community</a>
+            <div class="navbar-nav">
+                <a class="nav-link active" href="index.html">Home</a>
+                <a class="nav-link" href="gallery.html">Gallery</a>
+                <a class="nav-link" href="form.html">Form</a>
+            </div>
+        </div>
+    </nav>
     <h1><b>Tech Community</b> sebuah komunitas yang bergerak di bidang multimedia dan siap menampung para generasi-generasi muda yang mau dan bersungguh-sungguh dalam dunia multimedia</h1>
     <p><b>Tech Community</b> komunitas yang berdiri pada tahun 2012, dimana semua orang mulai digempur-gempur kan dengan kiamat 2012. Dan Derek Cadudasa selaku pemilik datang dengan inovasi baru dengan menciptakan wadah bagi anak muda untuk berkreasi di bidang multimedia</p>
     <br>
@@ -16,7 +26,7 @@
         <h1>Data Buruh</h1>
 
         <div class="table-wrapper">
-            <table>
+            <table class="table table-striped">
                 <caption>Data Buruh</caption>
                 <thead>
                     <tr>
@@ -26,31 +36,11 @@
                     </tr>
                 </thead>
 
-                <tbody>
-                    <tr>
-                        <td>Rizky Pratama</td>
-                        <td>rizkiPratama@gmail.com</td>
-                        <td>VideoGrafis</td>
-                    </tr>
-                    <tr>
-                        <td>Afifatul Khuluq</td>
-                        <td>afifatulkhuluq@gmail.com</td>
-                        <td>VideoGrafis</td>
-                    </tr>
-                    <tr>
-                       <td>Dhina Rachma</td>
-                        <td>dhinarachma@gmail.com</td>
-                        <td>FotoGrafis</td>
-                    </tr>
-                    <tr>
-                        <td>Hawada Salwa</td>
-                        <td>hawadasalwa@gmail.com</td>
-                        <td>FotoGrafis</td>
-                    </tr>
+                <tbody id="memberTableBody">
                 </tbody>
                 <tfoot>
                     <tr>
-                        <td colspan="6">Total Buruh: 4</td>
+                        <td colspan="3" id="totalMembers">Total Buruh: 4</td>
                     </tr>
                 </tfoot>
 
